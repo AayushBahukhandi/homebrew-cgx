@@ -6,13 +6,13 @@ class Cgx < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.1.5/cgx-v0.1.5-aarch64-apple-darwin.tar.gz"
-    sha256 "dad1844f57695aabeec255ab335ba986c629d04a3eff6194302305294cd21169"
+    sha256 "ede6ed1644da820eeb20ac7baaaeefcbd4d5177b96c55a1bc96dfc0480d1f338"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.1.5/cgx-v0.1.5-x86_64-apple-darwin.tar.gz"
-    sha256 "b6f09cf1a442752b2b4e4d1f6fb21bc3642af30e46ad78f964991339d4f5c310"
+    sha256 "da4ea4b4b53f23b55f4a3b2551a2975a33634c431e1257b15b957c0998ec34a0"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.1.5/cgx-v0.1.5-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "91b6d3ca9d30206ac29a3ee5c63947e711df97deabe3b20536c0d30b4315b654"
+    sha256 "f243911e3d039088a9a2dec1100de454c10b45ecbaa068019359a5c79bbb52d2"
   end
 
   def install

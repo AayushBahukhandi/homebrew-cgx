@@ -1,18 +1,18 @@
 class Cgx < Formula
   desc "Turn any Git repository into a queryable knowledge graph"
   homepage "https://github.com/AayushBahukhandi/cgx"
-  version "0.3.3"
+  version "0.4.0"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.3.3/cgx-v0.3.3-aarch64-apple-darwin.tar.gz"
-    sha256 "ffd3de9f73867d63c26d499e6a9af5a506880f41c998b6ebf34b4d4a648afb8e"
+    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.4.0/cgx-v0.4.0-aarch64-apple-darwin.tar.gz"
+    sha256 "d95059f7627beab2db90b44e9df6b2f1ef75110282929cdf19a51ecf5b53c08f"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.3.3/cgx-v0.3.3-x86_64-apple-darwin.tar.gz"
-    sha256 "aaf22d966b86e4adfb0c401c8754422fe0733155aa6ebfd3e1ca4a1427018e49"
+    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.4.0/cgx-v0.4.0-x86_64-apple-darwin.tar.gz"
+    sha256 "eaffbc7cdcc37b1747bf7edbcca0d298786dc477be9ed6aa9b9b062e921cc53c"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.3.3/cgx-v0.3.3-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "9920aa1ffb48a764f3bb0f90f57743471cc10f447b06b03c44c8c78e767680a1"
+    url "https://github.com/AayushBahukhandi/cgx/releases/download/v0.4.0/cgx-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "d21c2b832bece5070776af02ddccc2efe57efa0c0dd8f2faab527d6df2c532d3"
   end
 
   def install
